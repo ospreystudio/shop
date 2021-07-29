@@ -19,14 +19,6 @@ export default {
       }
     }
   },
-  components: {
-
-  },
-  methods: {
-    sendData() {
-      this.$emit('sendArticle', this.product_data.article)
-    }
-},
 }
 </script>
 
