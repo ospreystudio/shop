@@ -5,6 +5,7 @@
 <catalog-item v-for="product in products"
                 :key="product.article"
                   :product_data="product"
+                @addToCart="addToCart"
                   ></catalog-item>
 </div>
 </div>
@@ -22,7 +23,11 @@ export default {
     ...mapGetters(['products']),
   },
   methods: {
-    ...mapActions(['getProduct']),
+    ...mapActions(['getProduct', 'addCart']),
+
+    addToCart(data) {
+      this.addCart(data)
+    }
   },
   mounted() {
     this.getProduct()

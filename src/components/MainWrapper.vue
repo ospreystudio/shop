@@ -2,19 +2,21 @@
   <div class="v-main wrapper">
   <p> {{ title }}</p>
     <main-catalog></main-catalog>
-    <catalog-card></catalog-card>
+    <catalog-cart v-if="cart.length"
+                  :cart_data="cart"></catalog-cart>
   </div>
 </template>
 
 <script>
 
 import MainCatalog from "./MainCatalog";
-import CatalogCard from "./CatalogCard";
+import CatalogCart from "./CatalogCart";
+import {mapGetters} from 'vuex'
 export default {
   name: "v-main-wrapper.vue",
   components: {
     MainCatalog,
-    CatalogCard
+    CatalogCart
   },
   data() {
     return {
@@ -22,6 +24,9 @@ export default {
     }
   },
   computed:{
+    ...mapGetters([
+        'cart'
+    ])
   },
   methods: {
   },
