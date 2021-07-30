@@ -1,24 +1,44 @@
-# shop
+## SHOP APP by JUSTIN MOREYL (Янюшкин Вадим)
+[![N|Solid](https://i.ibb.co/vHpsNKL/logo.png)](https://nodesource.com/products/nsolid)
 
-## Project setup
-```
-npm install
+## Technologies
+- [VUE.JS] - Vue.js - open source JavaScript framework
+- [SCSS, SASS] - One of the most advanced, stable, and feature-rich preprocessors.
+- [HTML5, CSS3] - Layout.
+
+
+## Development
+
+Want to contribute? Great!
+
+
+Open your favorite Terminal and run these commands.
+
+First Tab:
+
+```sh
+npm i
 ```
 
-### Compiles and hot-reloads for development
-```
+Second Tab:
+
+```sh
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+
+Third Tab:
+
+```sh
+json-server --watch db.json
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+App running at:
+http://localhost:8080
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
