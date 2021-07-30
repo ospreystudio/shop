@@ -24,4 +24,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.btn {
+  padding: 8px 16px;
+  background: #26ae68;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 </style>
