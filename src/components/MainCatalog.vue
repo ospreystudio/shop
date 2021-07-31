@@ -52,7 +52,7 @@ export default {
 &__link_to_cart {
    position: fixed;
    top: 20px;
-   right: 20px;
+   right: 40px;
    padding: 18px*2;
    border: solid 1px #aeaeae;
    background: #ffffff;
