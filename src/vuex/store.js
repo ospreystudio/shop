@@ -46,7 +46,7 @@ let store = new Vuex.Store({
     },
     actions: {
         getProduct({ commit }) {
-            return axios ('http://localhost:3000/products', {
+            return axios ('https://my-json-server.typicode.com/ospreystudio/shop/products', {
                 method: "GET"
             })
                 .then((products) => {
