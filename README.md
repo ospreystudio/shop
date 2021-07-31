@@ -25,14 +25,14 @@ npm i
 Second Tab:
 
 ```sh
-npm run serve
+npm run json
 ```
 
 
 Third Tab:
 
 ```sh
-npm run json
+npm run serve
 ```
 
 App running at:
