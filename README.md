@@ -32,7 +32,7 @@ npm run serve
 Third Tab:
 
 ```sh
-json-server --watch db.json
+npm run json
 ```
 
 App running at:
